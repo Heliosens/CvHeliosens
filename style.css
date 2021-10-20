@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+}
+
+div {
+    border: 1px black solid;
+}
+
+form {
+    padding: 2vh 1vw;
+}
+
+input, textarea {
+    display: block;
+    padding: .5vh 1vw;
+}
+
+.scope {
+    display: inline-block;
+    width: 10%;
+    border: 1px solid blue;
+}
+
+.scope div {
+    background: lightseagreen;
+    height: 1vh;
+}
+
+/* scope */
+#word {
+    width: 70%;
+}
+
+#excel {
+    width: 60%;
+}
+

@@ -3,14 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Sylvie Bataille</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <p>Sylvie Bataille</p>
+        <p>xx rue par-là-bas</p>
+        <p>59610 Fourmies</p>
     </header>
 
-    <!-- school -->
+    <!-- photo -->
     <div>
+        <img src="tauriel.jpg" alt="elfe Tauriel portrait">
+    </div>
+
+    <!-- school -->
+    <div class="frame">
         <ul>
            <li>
                <p>formation développement web et web mobile</p>
@@ -72,15 +80,102 @@
     </div>
 
     <!-- computer skills -->
-    <div></div>
+    <div>
+        <ul>
+            <li>
+                <span>Word</span>
+                <div class="scope">
+                    <div id="word"></div>
+                </div>
+            </li>
+            <li>
+                <span>Excel</span>
+                <div class="scope">
+                    <div id="excel"></div>
+                </div>
+            </li>
+            <li>
+                <span>Powerpoint</span>
+                <div></div>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <span>Gimp</span>
+                <div></div>
+            </li>
+            <li>
+                <span>Inkscape</span>
+                <div></div>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <span>Tinkercad</span>
+                <div></div>
+            </li>
+            <li>
+                <span>Fusion 360</span>
+                <div></div>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <span>PhpStorm</span>
+                <div></div>
+            </li>
+            <li>
+                <span>GitHub</span>
+                <div></div>
+            </li>
+            <li>
+                <span>HTML</span>
+                <div></div>
+            </li>
+            <li>
+                <span>CSS</span>
+                <div></div>
+            </li>
+            <li>
+                <span>JavaScript</span>
+                <div></div>
+            </li>
+            <li>
+                <span>jQuery</span>
+                <div></div>
+            </li>
+            <li>
+                <span>PHP</span>
+                <div></div>
+            </li>
+            <li>
+                <span>SQL</span>
+                <div></div>
+            </li>
+        </ul>
+    </div>
 
     <!-- hobbies -->
-    <div></div>
+    <div>
+        <p>Tir à l'arc</p>
+        <p>Modélisation 3D, Découpe laser</p>
+        <p>Couture</p>
+        <p>Loisir créatif</p>
+    </div>
 
     <!-- contact form -->
     <div>
-        <!-- all contact : Mail, Github -->
+        <form action="mailto:unsolo@hotmail.fr" method="post">
+            <input type="text" name="nom" placeholder="votre nom">
+            <input type="email" name="email" placeholder="votre email">
+            <textarea name="message" id="userMessage" cols="30" rows="5" placeholder="votre message"></textarea>
+            <input type="button" name="send" value="Envoyer">
+        </form>
     </div>
 
+    <!-- all contact : Mail, Github -->
+    <div>
+
+    </div>
 </body>
 </html>
